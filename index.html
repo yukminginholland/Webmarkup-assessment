@@ -308,9 +308,9 @@
 				
 				<footer>
 					Voor meer informatie bezoek de website van 
-					<a href="https://www.taekwon.nl/brazilian-jiu-jitsu/">
-					Hwa-rang Dragon
-					</a>					
+					<form>
+						<button type="submit" formaction="https://www.taekwon.nl/brazilian-jiu-jitsu/">Hwa-Rang</button>
+					</form>
 				</footer>							
 			</article>
 		</section>
@@ -325,17 +325,17 @@
 				<source src ="video/background.webm" type = "video/webm">
 			</video>	
 			
-			<form>
+			<form action ="http://witan.nl/inholland/testform.php" target="_blank">>
 				<fieldset>
 					<legend>Contact</legend>
 					<p>
-						Naam: <input type = "text">
+						Naam: <input type = "text" attribute, name ="name">
 					</p>
 					<p>
-						Email:<input type = "email">
+						Email:<input type = "email" attribute, name = "email">
 					</p>
 					<p>
-						Vraag:<input type ="text" id = "textboxVraag">
+						Vraag:<input type ="text" attribute, name = "message" id = "textboxVraag">
 					</p>
 					<input type="submit">
 				</fieldset>
