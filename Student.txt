@@ -1,0 +1,4 @@
+naam: Yukming Man
+student nummer: 651262
+klas: inf1Sa
+github repo: https://github.com/yukminginholland/Webmarkup-assessment
