@@ -1,0 +1,4 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+Sitemap: http://taekwon.eu/651262/sitemap.xml

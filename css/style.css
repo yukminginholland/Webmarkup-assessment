@@ -1,0 +1,111 @@
+@font-face
+	{
+	font-family:"roboto";
+	src: url("fonts/Roboto-Regular.ttf") format("truetype");
+	}
+
+#grid-container
+	{
+	padding: 20px;
+	grid-gap: 75px;
+	display: grid;
+	grid-template-areas:
+	/*#col1 			#col2 			col3 			#col4 */
+	"headerTag			headerTag		headerTag		headerTag"
+	"mainTag			mainTag			mainTag		 	mainTag"
+	"secTag				secTag			secTag			secTag"
+	"sportTag			sportTag		sportTag		sportTag"
+	"referalTag			referalTag		referalTag		referalTag"
+	"contactTag			contactTag		contactTag		contactTag"	
+	"footerTag			footerTag		footerTag		footerTag";
+	}
+
+body
+	{
+	font-family: Helvetica, Arial, "Times New Roman", "roboto";
+	z-index: 1;
+	overflow-x:hidden;
+	}
+	
+header
+	{	
+	color:#ff6600;
+	}
+
+#navigatie 
+	{
+	grid-area: headerTag;
+	}
+	
+.standaardfoto
+	{
+	max-height:300px;
+	padding-right: 50px;
+	}
+	
+#navbalk > li
+	{
+	float: left;
+	padding: 15px;
+	list-style:none;
+	}
+	
+#maincontent 
+	{
+	color:#800080;
+	width: 65%;
+	grid-area: mainTag;
+	}	
+
+#secondarycontent
+	{
+	color:#003300;
+	width: 65%;		
+	grid-area: secTag;
+	}
+
+#sportcontent
+	{
+	font-size:14px;
+	color:#b30000;
+	width: 65%;		
+	grid-area:sportTag
+	}
+#sportcontent img
+	{
+	max-height:200px;
+	padding-right: 50px;
+	}
+#referalcontent
+	{
+	color:#663300;
+	width: 65%;		
+	grid-area: referalTag;
+	}
+#contactcontent
+	{
+	width: 100%;
+	font-size:15px;
+	color:#002699;	
+	grid-area: contactTag;
+	}
+#textboxVraag
+	{
+	height:100px;
+	}
+	
+#contactcontent video
+	{
+	border-spacing:2px;
+	position: absolute;
+	z-index: -2;
+	min-height: 100%;
+	min-width: 100%;
+	}
+
+footer
+	{
+	font-size: 16px;
+	color:#000099;
+	grid-area: footerTag;
+	}
